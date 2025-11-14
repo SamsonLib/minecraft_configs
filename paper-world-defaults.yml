@@ -281,18 +281,18 @@ max-growth-height:
   reeds: 3
 misc:
   allow-remote-ender-dragon-respawning: false
-  alternate-current-update-order: ALTERNATE_CURRENT
+  alternate-current-update-order: HORIZONTAL_FIRST_OUTWARD
   disable-end-credits: false
   disable-relative-projectile-velocity: false
   disable-sprint-interruption-on-attack: false
   legacy-ender-pearl-behavior: false
   max-leash-distance: default
-  redstone-implementation: VANILLA
+  redstone-implementation: ALTERNATE_CURRENT
   show-sign-click-command-failure-msgs-to-player: false
   update-pathfinding-on-block-update: true
 scoreboards:
-  allow-non-player-entities-on-scoreboards: false
-  use-vanilla-world-scoreboard-name-coloring: false
+  allow-non-player-entities-on-scoreboards: true
+  use-vanilla-world-scoreboard-name-coloring: true
 spawn:
   allow-using-signs-inside-spawn-protection: false
 tick-rates:
